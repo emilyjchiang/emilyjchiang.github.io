@@ -1,0 +1,176 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: B0A48B;
+}
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 65px;
+    width: 100%;
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 0px;
+    align-items: center;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-family: 
+}
+
+#welcome {
+    font-size: 40px;
+    text-shadow: 2px 2px white;
+}
+
+#journal {
+    font-size: 88px;
+    text-shadow: 2px 2px white;
+}
+
+.title {
+    line-height: 6px;
+    text-align: center;
+    padding-top: 170px;
+    color: black;
+    font-weight: bold;
+}
+
+li a:hover {
+    color: black;
+}
+
+.still-life {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 620px;
+  position: relative;
+  margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.landscape {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.film {
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    text-align: center;
+    line-height: 25px;
+}
+
+.home a {
+    font-size: 35px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+
+.home {
+    text-align: center;
+    line-height: 25px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.about-me {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    padding-right: 175px;
+    padding-left: 175px;
+    color: white;
+}
+
+#paragraph {
+    line-height: 35px;
+    font-size: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 100%;
+}
+
+#washingtonsquare {
+    opacity: 65%;
+}
+
+
+.title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
